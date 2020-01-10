@@ -5,6 +5,7 @@
 	"main": "handler.js",
 	"scripts": {
 		"invoke_create": "sls invoke local --function create --path mocks/create-event.json",
+		"invoke_get": "sls invoke local --function get --path mocks/get-event.json",
 		"test": "serverless-bundle test"
 	},
 	"author": "",
